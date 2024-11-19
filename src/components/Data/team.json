@@ -1,0 +1,57 @@
+{
+  "team": [
+    {
+      "title": "CEO and Founder",
+      "name": "John Smith",
+      "description": "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+      "profile": "/team/c1.png",
+      "link": "/"
+    },
+    {
+      "title": "Director of Operations",
+      "name": "Jane Doe",
+      "description": "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+      "profile": "/team/c2.png",
+      "link": "/"
+    },
+    {
+      "title": "Senior SEO Specialist",
+      "name": "Michael Brown",
+      "description": "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+      "profile": "/team/c3.png",
+      "link": "/"
+    }
+  ],
+  "process": [
+    {
+      "index": 1,
+      "label": "Consultation",
+      "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+    },
+    {
+      "index": 2,
+      "label": "Research",
+      "content": "In the research phase, we conduct thorough market analysis, competitor research, and keyword research. This helps us identify opportunities, understand industry trends, and develop a data-driven strategy tailored to your business."
+    },
+    {
+      "index": 3,
+      "label": "Implementation",
+      "content": "During implementation, we put our strategy into action. This includes creating and optimizing content, setting up campaigns, and implementing technical SEO improvements. We ensure all elements are aligned with your goals and best practices."
+    },
+    {
+      "index": 4,
+      "label": "Optimization",
+      "content": "Optimization is an ongoing process where we continuously refine and improve our strategies. We analyze performance data, conduct A/B tests, and make data-driven adjustments to maximize the effectiveness of your digital marketing efforts."
+    },
+    {
+      "index": 5,
+      "label": "Reporting",
+      "content": "We provide regular, comprehensive reports that clearly communicate the results of our efforts. These reports include key performance indicators, insights, and recommendations, ensuring you have a clear understanding of your campaign's performance."
+    },
+    {
+      "index": 6,
+      "label": "Improvement",
+      "content": "Based on our reports and ongoing analysis, we identify areas for improvement and new opportunities. We then develop and implement strategies to further enhance your digital marketing performance, ensuring continuous growth and success."
+    }
+  ]
+}
