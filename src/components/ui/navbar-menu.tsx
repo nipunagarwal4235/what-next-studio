@@ -109,7 +109,13 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
+export const HoveredLink = <T extends Record<string, unknown>>({
+  children,
+  ...rest
+}: {
+  children: React.ReactNode;
+  href: string;
+} & T) => {
   return (
     <Link
       {...rest}

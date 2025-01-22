@@ -4,7 +4,6 @@ import { Services } from "@/components/services";
 import { StickyNavbar } from "@/components/sticky-navbar";
 import TestimonialCarousel from "@/components/testimonial";
 import  HeroSection  from "@/components/hero-section";
-import Partners from "@/components/partners";
 
 export default function Home() {
   return (

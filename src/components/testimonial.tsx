@@ -10,27 +10,22 @@ import VShine from "../assets/client-logos/v-shine-car-spa-webp.webp";
 
 const testimonials = [
   {
-    company: "AttentionToDetail",
     text: "What Next Studio transformed our brand's online presence with their creative strategies—results beyond expectations!",
     image: Atd,
   },
   {
-    company: "100N",
     text: "Their team's dedication and innovative approach brought our vision to life. Highly recommend!",
     image: HundredN,
   },
   {
-    company: "Kortyard",
     text: "Thanks to What Next Studio, our website traffic and customer engagement have skyrocketed.",
     image: Kortyard,
   },
   {
-    company: "V Shine",
     text: "They understood our needs perfectly and delivered campaigns that truly connected with our audience.",
     image: VShine,
   },
   {
-    company: "Seven Days",
     text: "Professional, reliable, and incredibly talented—What Next Studio is a game-changer for marketing.",
     image: SevenDays,
   },
@@ -51,7 +46,7 @@ const TestimonialCarousel = () => {
     };
   }, []);
 
-  const { company, text, image } = testimonials[currentTestimonial];
+  const { text, image } = testimonials[currentTestimonial];
 
   const variants = {
     initial: { opacity: 0, y: "100%", scale: 0.1 },
@@ -98,7 +93,7 @@ const TestimonialCarousel = () => {
           <div className="mt-8 flex justify-center">
             {testimonials.map((testimonial, index) => (
               <motion.div
-                key={testimonial.company}
+                key={index}
                 className="mx-1 h-1 w-1 cursor-pointer rounded-full"
                 variants={dotVariants}
                 animate={index === currentTestimonial ? "active" : "inactive"}

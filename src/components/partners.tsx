@@ -1,4 +1,3 @@
-import { div } from "framer-motion/client";
 import Atd from "../assets/client-logos/atd-webp.webp";
 import HundredN from "../assets/client-logos/hundred-n-cafe-webp.webp";
 import Kortyard from "../assets/client-logos/kortyard-cafe-webp.webp";
