@@ -3,7 +3,7 @@ import HundredN from "../assets/client-logos/hundred-n-cafe-webp.webp";
 import Kortyard from "../assets/client-logos/kortyard-cafe-webp.webp";
 import SevenDays from "../assets/client-logos/seven-days-webp.webp";
 import VShine from "../assets/client-logos/v-shine-car-spa-webp.webp";
-
+import Image from 'next/image';
 
 const logos = [
     {
@@ -53,11 +53,13 @@ export default function Partners() {
                 className="flex shrink-0 animate-logo-cloud flex-row justify-around gap-6"
               >
                 {logos.map((logo, key) => (
-                  <img
+                  <Image
                     key={key + logo.name}
-                    src={logo.image.src}
-                    className="w-20 px-2"
+                    src={logo.image}
                     alt={`${logo.name}`}
+                    width={80}
+                    height={40}
+                    className="w-20 px-2"
                   />
                 ))}
               </div>

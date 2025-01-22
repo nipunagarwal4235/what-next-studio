@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Image from 'next/image';
 import Atd from "../assets/client-logos/atd-webp.webp";
 import HundredN from "../assets/client-logos/hundred-n-cafe-webp.webp";
 import Kortyard from "../assets/client-logos/kortyard-cafe-webp.webp";
@@ -77,9 +78,11 @@ const TestimonialCarousel = () => {
             }}
           >
 
-            <img
-              src={image.src}
+            <Image
+              src={image}
               alt="Testimonials from Our Clients"
+              width={128}
+              height={64}
               className="mb-6 w-20 sm:w-24 md:w-32 lg:w-40"
             />
 

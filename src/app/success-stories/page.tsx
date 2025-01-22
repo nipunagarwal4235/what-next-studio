@@ -11,7 +11,7 @@ export default function BlogsPage() {
                 Success Stories
                 &apos;Get ready to be inspired—our success stories are coming soon to show you what&apos;s possible!&apos;
             </h1>
-            <p className="text-sm md:text-lg text-center text-neutral-500 max-w-2xl mx-auto py-4">Get ready to be inspired—our success stories are coming soon to show you what's possible!</p>
+            <p className="text-sm md:text-lg text-center text-neutral-500 max-w-2xl mx-auto py-4">Get ready to be inspired&mdash;our success stories are coming soon to show you what&apos;s possible!</p>
         </div>
         <MadeByMeFooter />
         </div>
